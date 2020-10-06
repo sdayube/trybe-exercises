@@ -1,6 +1,6 @@
 //en-US
 
-Welcome! This is a personal dispository in which I will register my journey into
+Welcome! This is a personal repository in which I will register my journey into
 becoming a fullstack web developer through the Trybe course. Feel free to look into it,
 and to give me any tips since I'm really just beginning as of this README's writing.
 
