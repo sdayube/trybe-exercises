@@ -1,4 +1,4 @@
-#Trybe Exercises
+# Trybe Exercises
 
 Português | [English](./README_en.md)
 
