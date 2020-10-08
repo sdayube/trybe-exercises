@@ -7,7 +7,7 @@ me tornar um desenvolvedor web fullstack através do curso Trybe. Sinta-se à vo
 vasculhá-lo e dar sugestões, já que estou apenas começando enquanto escrevo este README.
 
 Vou tentar documentar e explicar tudo o que devo fazer em cada exercício que você vê aqui, 
-mas às vezes pode não ser possível devido a restrições de tempo e prazos, masmesmo  nesses
+mas às vezes pode não ser possível devido a restrições de tempo e prazos, mas mesmo  nesses
 casos tentarei voltar depois e adicionar a documentação pertinente.
 
 #goTrybe #VQV
