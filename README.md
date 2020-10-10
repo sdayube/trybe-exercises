@@ -11,3 +11,16 @@ mas às vezes pode não ser possível devido a restrições de tempo e prazos, m
 casos tentarei voltar depois e adicionar a documentação pertinente.
 
 #goTrybe #VQV
+
+## Índice de Exercícios
+
+Aqui segue a lista de todos os exercícios feitos até o momento: 
+
+ 1. [Unix e Bash](./1.Unix_and_Bash)
+ 
+ 2. [Git e Github](./2.Git_and_Github/)
+	 2.1. [Aprendendo Git](./2.Git_and_Github/2.1/)
+	 2.2. [Branching, GitHub e Pull Requests](./2.Git_and_Github/2.2/)
+	 	 
+ 3. [HTML e CSS](./3.HTML_and_CSS)
+	 3.1. [HTML inicial](./3.HTML_and_CSS/3.1)
