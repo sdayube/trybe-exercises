@@ -1,0 +1,1 @@
+Today's content was about CSS basics. We were directed to do [Khan Academy's intro to CSS](https://pt.khanacademy.org/computing/computer-programming/html-css/intro-to-css/pt/css-basics) and told to do specific challenges amongst the ones presented there. All challenge results are posted here as _.html_ files.
