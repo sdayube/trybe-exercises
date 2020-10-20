@@ -22,6 +22,6 @@ Aqui segue a lista de todos os exercícios feitos até o momento:
  	1. [Sobre o Git](./2.%20Git%20and%20Github/2.1.%20About%20Git/)
 	2. [Aprendendo os Comandos](./2.%20Git%20and%20Github/2.2.%20Learning%20the%20Commands/)
 	 	 
- 3. [HTML e CSS](./3. HTML and CSS)
+ 3. [HTML e CSS](./3.%20HTML%20and%20CSS)
 	1. [Tags HTML e Estrutura](./3.%20HTML%20and%20CSS/3.1.%20HTML%20Tags%20and%20Structure/)
 	2. [Primeiros Passos em CSS](./3.%20HTML%20and%20CSS/3.2.%20CSS%20First%20Steps/)
