@@ -16,11 +16,12 @@ so I will try to come back later and add the pertinent documentation.
 
 Here are listed all exercises done until the present moment: 
 
- 1. [Unix and Bash](./1.Unix_and_Bash)
+ 1. [Unix and Bash](./1.%20Unix%20and%20Bash)
  
- 2. [Git and Github](./2.Git_and_Github/)
- 	1. [Learning Git](./2.Git_and_Github/2.1/)
-	2. [Branching, GitHub and Pull Requests](./2.Git_and_Github/2.2/)
+ 2. [Git and Github](./2.%20Git%20and%20Github)
+ 	1. [About Git](./2.%20Git%20and%20Github/2.1.%20About%20Git/)
+	2. [Learning the Commands](./2.%20Git%20and%20Github/2.2.%20Learning%20the%20Commands/)
 	 	 
- 3. [HTML and CSS](./3.HTML_and_CSS)
-	1. [Beginner HTML](./3.HTML_and_CSS/3.1)
+ 3. [HTML and CSS](./3.%20HTML%20and%20CSS)
+	1. [HTML Tags and Structure](./3.%20HTML%20and%20CSS/3.1.%20HTML%20Tags%20and%20Structure/)
+	2. [CSS First Steps](./3.%20HTML%20and%20CSS/3.2.%20CSS%20First%20Steps/)
