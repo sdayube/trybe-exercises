@@ -24,3 +24,7 @@ This webpage contains an image of a planet, an image of a creature, and a div wi
 ## Challenge 5: Floating clouds (CSS Floating Elements)
 
 This webpage contains information on clouds plus a photo of clouds. In the first step, float the photo to the left of the text, so that the text wraps around it. There's also a yellow div of information. Make that div float to the right of the text, so that the photo is on the left side of the text and the yellow div is on the right side of the text. Now that we have elements floated next to eachother, we should make sure to separate them with some whitespace. Add appropriate margins to the photo and the sidebar.
+
+## Challenge 6: A classy gallery (Using Multiple CSS Classes)
+
+This webpage has three images in the body, but there are no styles yet. We've defined a few CSS rules with class selectors at the top. Some of the rules change the size of the image, and others change the border. Add two class names to each image so that the sizes and borders vary from each other.
