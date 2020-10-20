@@ -32,3 +32,7 @@ This webpage has three images in the body, but there are no styles yet. We've de
 ## Challenge 7: Classes of elements (Combining CSS class and element selectors)
 
 This webpage describes one classification of elements in the periodic table: metals, non-metals, and semi-metals. It uses CSS rules with class selectors to color those words, both in the top paragraph and the headings. Style the headings so that their background is the same color as their text. Then change the text color to white so that you can read it. For this step, start by styling the headings with the *'metal'* class.
+
+## Challenge 8: Descendants of Khan (CSS Descendant Selectors)
+
+This webpage describes Genghis Khan, an emperor who had many descendants, and includes a table with just a few of the emperors that descended from him. Add a rule that targets only the elements that have the 'emperor' class and are in the table. The rule should change the background color of those table cells. Now add another rule that targets only the elements that have the class name 'reign' and in the table. Like in the first step, the rule should change the background color of those table cells. Pick a different color than you picked for the other rule!
