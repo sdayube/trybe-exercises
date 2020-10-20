@@ -28,3 +28,7 @@ This webpage contains information on clouds plus a photo of clouds. In the first
 ## Challenge 6: A classy gallery (Using Multiple CSS Classes)
 
 This webpage has three images in the body, but there are no styles yet. We've defined a few CSS rules with class selectors at the top. Some of the rules change the size of the image, and others change the border. Add two class names to each image so that the sizes and borders vary from each other.
+
+## Challenge 7: Classes of elements (Combining CSS class and element selectors)
+
+This webpage describes one classification of elements in the periodic table: metals, non-metals, and semi-metals. It uses CSS rules with class selectors to color those words, both in the top paragraph and the headings. Style the headings so that their background is the same color as their text. Then change the text color to white so that you can read it. For this step, start by styling the headings with the *'metal'* class.
