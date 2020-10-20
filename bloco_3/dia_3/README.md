@@ -20,3 +20,7 @@ This webpage displays a gallery of photos of boxer dogs. In this first step, add
 ## Challenge 4: Position planet (CSS Positioning)
 
 This webpage contains an image of a planet, an image of a creature, and a div with a greeting. Your job is to make it look like the creature is sitting on the planet and saying the greeting. In this first step, use absolute positioning to put the creature on top of the planet somewhere. Then, position the greeting on top of the planet as well.
+
+## Challenge 5: Floating clouds (CSS Floating Elements)
+
+This webpage contains information on clouds plus a photo of clouds. In the first step, float the photo to the left of the text, so that the text wraps around it. There's also a yellow div of information. Make that div float to the right of the text, so that the photo is on the left side of the text and the yellow div is on the right side of the text. Now that we have elements floated next to eachother, we should make sure to separate them with some whitespace. Add appropriate margins to the photo and the sidebar.
