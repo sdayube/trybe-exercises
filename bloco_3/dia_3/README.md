@@ -7,3 +7,9 @@ This webpage describes groupers, a type of large ocean fish. In the first step, 
 Now, using a class selector, write a CSS rule to style your "first-sentence" class. Make the sentence either bold, or underlined.
 Wrap the paragraphs in a single `<div>`, and then give the div a class of "info".
 Using a class selector, write a CSS rule to style your 'info' class. Give it a cool looking background color.
+
+## Challenge 2: The overflowing ocean (CSS Width, Height and Overflow)
+
+This webpage describes the ocean, with an image and a few paragraphs which are inside a <div>. Style the <div> that has a class of 'info', so that it takes up 70% of the width and is 200px tall.
+Now, make it so the div cuts off the overflowing text and presents a scrollbar instead.
+Write a CSS rule for the ‘pic’ class that resizes the image to take up the same width as the text.
