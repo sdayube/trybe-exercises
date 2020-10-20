@@ -36,3 +36,7 @@ This webpage describes one classification of elements in the periodic table: met
 ## Challenge 8: Descendants of Khan (CSS Descendant Selectors)
 
 This webpage describes Genghis Khan, an emperor who had many descendants, and includes a table with just a few of the emperors that descended from him. Add a rule that targets only the elements that have the 'emperor' class and are in the table. The rule should change the background color of those table cells. Now add another rule that targets only the elements that have the class name 'reign' and in the table. Like in the first step, the rule should change the background color of those table cells. Pick a different color than you picked for the other rule!
+
+## Challenge 9: Grouped animals (CSS Selector Grouping and Pseudo-Classes)
+
+This is a webpage about animal group names, with a few headings and images as examples. There are already 2 CSS rules to style the `<h1>`s - one with a pseudo selector, and one without. Add another selector to each of the rules, so that they also style `<h2>`s.
