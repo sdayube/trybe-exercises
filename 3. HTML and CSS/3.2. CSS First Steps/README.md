@@ -11,7 +11,7 @@ Today's content was about CSS basics. During the instruction we were asked to pe
 ## Part 2: Fonts
  
 1. Change h1's font family to sans-serif;
-2. Make the paragrafh have a font-weight of 600;
+2. Make the paragraph have a font-weight of 600;
 3. Change font-size of body to 16px;
 4. Make paragraph 3x bigger than body default;
 5. Explor the font-style, line-height, text-align and text-decoration properties;
