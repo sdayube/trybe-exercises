@@ -16,3 +16,7 @@ This webpage describes the ocean, with an image and a few paragraphs which are i
 ## Challenge 3: The boxer model (CSS Box Model)
 
 This webpage displays a gallery of photos of boxer dogs. In this first step, add a border to all of the photos. Try and make it look like a photo frame, if you can. The photos look a bit too close to each other. Add margin to them, either on all sides or just the sides that matter to separate them. The photos are too close to the side of the gallery div, and it looks weird. Add padding around all sides of the gallery div so that it looks better.
+
+## Challenge 4: Position planet (CSS Positioning)
+
+This webpage contains an image of a planet, an image of a creature, and a div with a greeting. Your job is to make it look like the creature is sitting on the planet and saying the greeting. In this first step, use absolute positioning to put the creature on top of the planet somewhere. Then, position the greeting on top of the planet as well.
