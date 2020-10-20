@@ -16,12 +16,12 @@ casos tentarei voltar depois e adicionar a documentação pertinente.
 
 Aqui segue a lista de todos os exercícios feitos até o momento: 
 
- 1. [Unix e Bash](./1.\ Unix\ and\ Bash)
+ 1. [Unix e Bash](./1.%20Unix%20and%20Bash)
  
- 2. [Git e Github](./2.\ Git\ and\ Github)
- 	1. [Sobre o Git](./2.\ Git\ and\ Github/2.1.\ About\ Git/)
-	2. [Aprendendo os Comandos](./2.\ Git\ and\ Github/2.2.\ Learning\ the\ Commands/)
+ 2. [Git e Github](./2.%20Git%20and%20Github)
+ 	1. [Sobre o Git](./2.%20Git%20and%20Github/2.1.%20About%20Git/)
+	2. [Aprendendo os Comandos](./2.%20Git%20and%20Github/2.2.%20Learning%20the%20Commands/)
 	 	 
- 3. [HTML e CSS](./3.\ HTML\ and\ CSS)
-	1. [Tags HTML e Estrutura](./3.\ HTML\ and\ CSS/3.1.\ HTML\ Tags\ and\ Structure/)
-	2. [Primeiros Passos em CSS](./3.\ HTML\ and\ CSS/3.2.\ CSS\ First\ Steps/)
+ 3. [HTML e CSS](./3.%20HTML%20and%20CSS)
+	1. [Tags HTML e Estrutura](./3.%20HTML%20and%20CSS/3.1.%20HTML%20Tags%20and%20Structure/)
+	2. [Primeiros Passos em CSS](./3.%20HTML%20and%20CSS/3.2.%20CSS%20First%20Steps/)
