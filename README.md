@@ -26,3 +26,4 @@ Aqui segue a lista de todos os exercícios feitos até o momento:
 	1. [Tags HTML e Estrutura](./3.%20HTML%20and%20CSS/3.1.%20HTML%20Tags%20and%20Structure/)
 	2. [Primeiros Passos em CSS](./3.%20HTML%20and%20CSS/3.2.%20CSS%20First%20Steps/)
 	3. [Seletores e Posicionamento em CSS](./3.%20HTML%20and%20CSS/3.3.%20CSS%20Selectors%20and%20Positioning)
+  4. [HTML Semântico e Propriedades de Display](./3.%20HTML%20and%20CSS/3.4.%20Semantic%20HTML%20and%20Display%20Property)
