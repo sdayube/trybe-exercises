@@ -26,7 +26,7 @@ Before doing the exercises, create a _HTML_ file in the 3.4 folder and copy the 
 </html>
 ```
 
-The purpose of these exercises is to put into practice what you have just learned about ** semantic HTML **.
+The purpose of these exercises is to put into practice what you have just learned about **semantic HTML**.
 
 To this end, we will create a page that features one of the most impressive animals in existence: [Stomatopoda.](https://www.nationalgeographic.com/science/phenomena/2014/07/03/natures-most-amazing-eyes-just-got-a-bit-weirder/) The styling of the page is up to you.😉
 
