@@ -5,7 +5,7 @@ All exercise results are put in this folder as _.html_ files.
 
 Display the list items as inline elements.
 
-# Exercise 2: Block Display Property
+## Exercise 2: Block Display Property
 
 Display the `<strong>` elements as block elements.
 
