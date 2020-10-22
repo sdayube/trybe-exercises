@@ -1,5 +1,4 @@
 # 3.4. Semantic HTML & Display Property
-All exercise results are put in this folder as _.html_ files.
 
 ## Exercise 1: Inline Display Property
 
