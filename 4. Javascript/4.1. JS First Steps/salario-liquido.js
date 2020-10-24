@@ -1,4 +1,4 @@
-let salarioBruto = 3000.00;
+let salarioBruto = 3500.00;
 
 let valorInss;
 let valorImposto;
@@ -14,7 +14,7 @@ if (salarioBruto <= 1556.94) {
   valorInss = 570.88;
 }
 
-if (salarioBruto <= 1903.98) {
+if (salarioBruto <= 1903.98) {0
   valorImposto = 0;
   abateImposto = 0;
 } else if (salarioBruto <= 2826.65) {
@@ -30,9 +30,8 @@ if (salarioBruto <= 1903.98) {
   valorImposto = salarioBruto * 0.275;
   abateImposto = 869.36;
 }
-console.log("Salário bruto = " + (salarioBruto));
 
+console.log("Salário bruto = " + (salarioBruto));
 console.log("INSS = " + valorInss);
 console.log("IR = " + (valorImposto - abateImposto));
-
 console.log("Salário líquido = " + (salarioBruto - valorInss - valorImposto + abateImposto));
