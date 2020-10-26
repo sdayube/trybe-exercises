@@ -6,7 +6,7 @@ let unevenCount = 0;
 
 for (let i = 0; i < numbers.length; i += 1) {
   if ((numbers[i] % 2) != 0) {
-    unevenCount += 1
+    unevenCount += 1;
   }
 }
 
