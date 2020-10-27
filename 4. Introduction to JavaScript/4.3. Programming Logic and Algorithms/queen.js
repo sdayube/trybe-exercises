@@ -1,6 +1,6 @@
 // Queen's position
-let posQueenLine = 4;
-let posQueenColumn = 4;
+let posQueenLine = 3;
+let posQueenColumn = 3;
 
 //Adversary's position
 let posAdversaryLine = 6;
@@ -35,6 +35,21 @@ for (let supLeft = 1; supLeft < 8; supLeft += 1) {
   let queenColumn = posQueenColumn - supLeft;
 
   if (queenLine > 8 || queenColumn < 1) {
+    break;
+  }
+  
+  if (queenLine == posAdversaryLine && queenColumn == posAdversaryColumn) {
+    canAttack = true;
+  }
+
+}
+
+// Checks inferior left quadrant
+for (let infLeft = 1; infLeft < 8; infLeft += 1) {
+  let queenLine = posQueenLine - infLeft;
+  let queenColumn = posQueenColumn - infLeft;
+
+  if (queenLine < 1 || queenColumn < 1) {
     break;
   }
   
