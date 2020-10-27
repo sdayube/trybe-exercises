@@ -14,12 +14,27 @@ if (posQueenLine == posAdversaryLine || posQueenColumn == posAdversaryColumn) {
   canAttack = true;
 }
   
-// Checks superior quadrant
+// Checks superior right quadrant
 for (let supRight = 1; supRight < 8; supRight += 1) {
   let queenLine = posQueenLine + supRight;
   let queenColumn = posQueenColumn + supRight;
 
   if (queenLine > 8 || queenColumn > 8) {
+    break;
+  }
+  
+  if (queenLine == posAdversaryLine && queenColumn == posAdversaryColumn) {
+    canAttack = true;
+  }
+
+}
+
+// Checks superior left quadrant
+for (let supLeft = 1; supLeft < 8; supLeft += 1) {
+  let queenLine = posQueenLine + supLeft;
+  let queenColumn = posQueenColumn - supLeft;
+
+  if (queenLine > 8 || queenColumn < 1) {
     break;
   }
   
