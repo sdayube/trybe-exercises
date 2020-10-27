@@ -3,8 +3,8 @@ let posQueenLine = 3;
 let posQueenColumn = 3;
 
 //Adversary's position
-let posAdversaryLine = 6;
-let posAdversaryColumn = 6;
+let posAdversaryLine = 5;
+let posAdversaryColumn = 5;
 
 // Can the attack happen or not
 let canAttack = false;
@@ -50,6 +50,21 @@ for (let infLeft = 1; infLeft < 8; infLeft += 1) {
   let queenColumn = posQueenColumn - infLeft;
 
   if (queenLine < 1 || queenColumn < 1) {
+    break;
+  }
+  
+  if (queenLine == posAdversaryLine && queenColumn == posAdversaryColumn) {
+    canAttack = true;
+  }
+
+}
+
+// Checks inferior right quadrant
+for (let infRight = 1; infRight < 8; infRight += 1) {
+  let queenLine = posQueenLine - infRight;
+  let queenColumn = posQueenColumn + infRight;
+
+  if (queenLine < 1 || queenColumn > 8) {
     break;
   }
   
