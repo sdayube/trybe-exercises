@@ -28,7 +28,9 @@ Here are listed all exercises done until the present moment:
 	3. [CSS Selectors and Positioning](./3.%20HTML%20and%20CSS/3.3.%20CSS%20Selectors%20and%20Positioning)
   4. [Semantic HTML and Display Property](./3.%20HTML%20and%20CSS/3.4.%20Semantic%20HTML%20and%20Display%20Property)
 
- 4. [Introduction to JavaScript](./4.%20Introduction%20to%20Javascript)
-	1. [JavaScript First Steps](./4.%20Introduction%20to%20Javascript/4.1.%20JS%20First%20Steps)
-	2. [Array and For Loop](./4.%20Introduction%20to%20Javascript/4.2.%20Array%20and%20For%20Loop)
+ 4. [Introduction to JavaScript](./4.%20Introduction%20to%20JavaScript)
+	1. [JavaScript First Steps](./4.%20Introduction%20to%20JavaScript/4.1.%20JS%20First%20Steps)
+	2. [Array and For Loop](./4.%20Introduction%20to%20JavaScript/4.2.%20Array%20and%20For%20Loop)
+	3. [Programming Logic and Algorithms](./4.%20Introduction%20to%20JavaScript/4.3.%20Programming%20Logic%20and%20Algorithms)
+	
 	
