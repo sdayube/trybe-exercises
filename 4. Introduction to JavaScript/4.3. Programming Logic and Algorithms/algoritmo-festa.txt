@@ -1,0 +1,40 @@
+Como se vestir para uma festa
+
+1. se seuLocal não for "quarto"
+  1.1. vá para o quarto;
+
+2. ande até guardaRoupa;
+
+3. segure a maçaneta direita de guardaRoupa;
+
+4. puxe a maçaneta de guardaRoupa até que a porta esteja a 90º da posição inicial;
+
+5. segure a maçaneta esquerda;
+
+6. repita o processo 4;
+
+7. se estiver sem roupaDeBaixo
+  7.1. selecione roupaDeBaixo aleatoriamente;
+  7.2. vista roupaDeBaixo;
+
+8. selecione camisa da lista roupasDeSair aleatoriamente;
+
+9. use a função vestirCamisa(camisa, padrão, deFrente) para vestir a camisa selecionada na posição padrão (sem estar pelo avesso) e com a etiqueta virada para as costas;
+
+10. gere lista com a função calçasQueCombinam(camisa) e, dentre os itens da lista, selecione calça aleatóriamente;
+
+11. use a função vestirCalça(calça, padrão, deFrente) para vestir a calça selecionada na posição padrão (sem estar pelo avesso) e com a braguilha virada para a frente;
+
+12. Selecione um par de meias aleatoriamente;
+
+13. Vista uma meia no pé direito e uma meia no pé esquerdo;
+
+14. gere lista com a função sapatosQueCombinam(camisa, calça) e, dentre os itens da lista, selecione parDeSapatos aleatóriamente;
+
+15. calce sapatoDireito(parDeSapatos) no pé direito;
+
+16. calce sapatoEsquerdo(parDeSapatos) no pé esquerdo;
+
+17. use a função amarraSapato(sapatoDireito(parDeSapatos); sapatoEsquerdo(parDeSapatos))
+
+17. ponha as duas portas de guardaRoupa na posição inicial;
