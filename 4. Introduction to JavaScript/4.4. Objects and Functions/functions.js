@@ -152,6 +152,3 @@ function salarioLiquido(salarioBruto) {
   IR = ${valorImposto - abateImposto};
   Salário líquido = ${salarioBase - valorImposto + abateImposto}.`;
 }
-
-
-console.log(salarioLiquido(3000));
