@@ -27,10 +27,10 @@ function mostRepeated(array) {
     }
 
     //Resets repCount
-    repCount = 0
+    repCount = 0;
   }
   
   return mostRepeatedNumber;
 }
 
-console.log(mostRepeated(testArray))
+console.log(mostRepeated(testArray));

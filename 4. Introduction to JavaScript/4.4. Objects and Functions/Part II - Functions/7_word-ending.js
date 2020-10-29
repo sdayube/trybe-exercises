@@ -1,5 +1,5 @@
-let testString = "trybe"
-let testEnd = "rybe"
+let testString = "trybe";
+let testEnd = "rybe";
 
 function nameEnd(name, end) {
 

@@ -7,8 +7,8 @@ function lowestIndex(array) {
 
   for (let i = 1; i < array.length; i += 1) {
     if (array[i] < lowestNum) {
-      lowestNum = array[i]
-      lowestIndex = i
+      lowestNum = array[i];
+      lowestIndex = i;
     }
   }
 
