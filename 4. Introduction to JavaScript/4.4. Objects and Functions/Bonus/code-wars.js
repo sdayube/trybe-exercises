@@ -15,7 +15,7 @@ function add(num1, num2) {
     newString = counter.toString() + newString;
   }
 
-  return newString;
+  return parseInt(newString);
 }
 
-console.log(add(1575,22588));
+console.log(add(12391,328891));
