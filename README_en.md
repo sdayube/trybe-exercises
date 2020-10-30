@@ -33,4 +33,6 @@ Here are listed all exercises done until the present moment:
 	2. [Array and For Loop](./4.%20Introduction%20to%20JavaScript/4.2.%20Array%20and%20For%20Loop)
 	3. [Programming Logic and Algorithms](./4.%20Introduction%20to%20JavaScript/4.3.%20Programming%20Logic%20and%20Algorithms)
 	4. [Objects and Functions](./4.%20Introduction%20to%20JavaScript/4.4.%20Objects%20and%20Functions)
-	
+
+ 5. [JavaScript: DOM, Events and Web Stages](./5.%20JavaScript:%20DOM,%20Events%20and%20Web%20Stages)
+	1. [DOM and Selectors](./5.%20JavaScript:%20DOM,%20Events%20and%20Web%20Stages/5.1.%20DOM%20and%20Selectors)
