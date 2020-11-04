@@ -41,3 +41,16 @@ function dayPopulator() {
 }
 
 dayPopulator();
+
+// Exercício 2
+function feriados(string) {
+  let button = document.createElement('button');
+  let parent = document.querySelector('.buttons-container')
+
+  button.innerText = string;
+  button.id = 'btn-holiday';
+
+  parent.appendChild(button)
+}
+
+feriados('Feriados');
