@@ -54,3 +54,20 @@ function feriados(string) {
 }
 
 feriados('Feriados');
+
+// Exercício 3
+let button = document.getElementById('btn-holiday');
+
+function holidayPainter() {
+  let holidays = document.getElementsByClassName('holiday');
+  
+  for (let i = 0; i < holidays.length; i += 1) {
+    if (holidays[i].style.backgroundColor === 'yellow') {
+      holidays[i].style.backgroundColor = 'rgb(238,238,238)';
+    } else {
+      holidays[i].style.backgroundColor = 'yellow';
+    }
+  }
+}
+
+button.addEventListener('click', holidayPainter)
