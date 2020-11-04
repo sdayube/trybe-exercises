@@ -71,3 +71,16 @@ function holidayPainter() {
 }
 
 button.addEventListener('click', holidayPainter)
+
+// Exercício 4
+function sextou(string) {
+  let button = document.createElement('button');
+  let parent = document.querySelector('.buttons-container')
+
+  button.innerText = string;
+  button.id = 'btn-friday';
+
+  parent.appendChild(button)
+}
+
+sextou('Sexta-feira');
