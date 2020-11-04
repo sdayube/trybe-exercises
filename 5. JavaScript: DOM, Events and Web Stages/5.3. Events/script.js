@@ -56,7 +56,7 @@ function feriados(string) {
 feriados('Feriados');
 
 // Exercício 3
-let button = document.getElementById('btn-holiday');
+let holidayButton = document.getElementById('btn-holiday');
 
 function holidayPainter() {
   let holidays = document.getElementsByClassName('holiday');
@@ -70,7 +70,7 @@ function holidayPainter() {
   }
 }
 
-button.addEventListener('click', holidayPainter)
+holidayButton.addEventListener('click', holidayPainter)
 
 // Exercício 4
 function sextou(string) {
@@ -84,3 +84,22 @@ function sextou(string) {
 }
 
 sextou('Sexta-feira');
+
+// Exercício 5
+
+let fridayButton = document.getElementById('btn-friday');
+
+function fridayRenamer() {
+  let fridays = document.getElementsByClassName('friday');
+  let fridayDays = ["4", "11", "18", "25"];
+  
+  for (let i = 0; i < fridays.length; i += 1) {
+    if (fridays[i].innerText === 'Sextou!') {
+      fridays[i].innerText = `${fridayDays[i]}`;
+    } else {
+      fridays[i].innerText = 'Sextou!';
+    }
+  }
+}
+
+fridayButton.addEventListener('click', fridayRenamer);
