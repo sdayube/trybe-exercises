@@ -117,3 +117,15 @@ function unzoom(event) {
 
 weekdays.addEventListener('mouseover', zoom)
 weekdays.addEventListener('mouseout', unzoom)
+
+//Exercício 7
+function chore(string) {
+  let span = document.createElement('span');
+  let parent = document.querySelector('.my-tasks')
+
+  span.innerText = string;
+  
+  parent.appendChild(span)
+}
+
+chore('Estudar');
