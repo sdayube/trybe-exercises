@@ -136,8 +136,22 @@ function caption(string) {
   let parent = document.querySelector('.my-tasks')
 
   div.style.backgroundColor = string;
+  div.className = 'task';
   
   parent.appendChild(div)
 }
 
 caption('green');
+
+// Exercício 9
+let taskDiv = document.querySelector('.task');
+
+function taskSelector(event) {
+  if (event.target.className === 'task') {
+    event.target.className = 'task selected';
+  } else {
+    event.target.className = 'task';
+  }
+}
+
+taskDiv.addEventListener('click', taskSelector);
