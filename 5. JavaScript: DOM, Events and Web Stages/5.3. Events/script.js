@@ -104,7 +104,7 @@ function fridayRenamer() {
 
 fridayButton.addEventListener('click', fridayRenamer);
 
-//Exercício 6
+// Exercício 6
 let weekdays = document.getElementById('days')
 
 function zoom(event) {
@@ -118,7 +118,7 @@ function unzoom(event) {
 weekdays.addEventListener('mouseover', zoom)
 weekdays.addEventListener('mouseout', unzoom)
 
-//Exercício 7
+// Exercício 7
 function chore(string) {
   let span = document.createElement('span');
   let parent = document.querySelector('.my-tasks')
@@ -129,3 +129,15 @@ function chore(string) {
 }
 
 chore('Estudar');
+
+// Exercício 8
+function caption(string) {
+  let div = document.createElement('div');
+  let parent = document.querySelector('.my-tasks')
+
+  div.style.backgroundColor = string;
+  
+  parent.appendChild(div)
+}
+
+caption('green');
