@@ -103,3 +103,17 @@ function fridayRenamer() {
 }
 
 fridayButton.addEventListener('click', fridayRenamer);
+
+//Exercício 6
+let weekdays = document.getElementById('days')
+
+function zoom(event) {
+  event.target.style.fontSize = '30px';
+}
+
+function unzoom(event) {
+  event.target.removeAttribute('style');
+}
+
+weekdays.addEventListener('mouseover', zoom)
+weekdays.addEventListener('mouseout', unzoom)
