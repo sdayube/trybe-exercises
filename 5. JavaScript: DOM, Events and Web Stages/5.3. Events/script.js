@@ -63,7 +63,7 @@ function holidayPainter() {
   
   for (let i = 0; i < holidays.length; i += 1) {
     if (holidays[i].style.backgroundColor === 'yellow') {
-      holidays[i].style.backgroundColor = 'rgb(238,238,238)';
+      holidays[i].removeAttribute('style');
     } else {
       holidays[i].style.backgroundColor = 'yellow';
     }
@@ -112,7 +112,7 @@ function zoom(event) {
 }
 
 function unzoom(event) {
-  event.target.removeAttribute('style');
+  event.target.style.fontSize = null;
 }
 
 weekdays.addEventListener('mouseover', zoom)
@@ -155,3 +155,15 @@ function taskSelector(event) {
 }
 
 taskDiv.addEventListener('click', taskSelector);
+
+// Exercício 10
+function dayColor (event) {
+  let divClass = taskDiv.className;
+  if ('task' === 'task selected'); {
+    console.log(divClass);
+    console.log('task selected')
+    event.target.style.backgroundColor = 'green';
+  }
+}
+
+weekdays.addEventListener('click', dayColor)
