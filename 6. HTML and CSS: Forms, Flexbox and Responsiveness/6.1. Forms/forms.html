@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms Exercise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <fieldset>
+      <div>
+        <span>
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name" maxlength="40" required>
+        </span>
+        <span>
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" maxlength="50" required>
+        </span>
+      </div>
+      <div>
+        <span>
+          <label for="cpf">CPF:</label>
+          <input type="text" name="cpf" id="cpf" maxlength="11" required>
+        </span>
+        <span>
+          <label for="adress">Endereço:</label>
+          <input type="text" name="adress" id="adress" maxlength="200" required>
+        </span>
+      </div>
+      <div>
+        <span>
+          <label for="city">Cidade:</label>
+          <input type="text" name="city" id="city" maxlength="28" required>
+        </span>
+        <span>
+          <span class="subsection">
+            <label for="state">Estado:</label>
+            <select name="state" id="state" required></select>
+          </span>
+          <span class="subsection">
+            <label for="home">Casa</label>
+            <input type="radio" name="homeType" id="home" value="home" checked required>
+          </span>
+          <span class="subsection">
+            <label for="apt">Apartamento</label>
+            <input type="radio" name="homeType" id="apt" value="apt" required>
+          </span>
+        </span>
+      </div>
+    </fieldset>
+    
+    <fieldset>
+      <div class="text-area">
+        <label for="summary">Resumo do currículo</label><br>
+        <textarea name="" id="summary" cols="80" rows="13" maxlength="1000" required></textarea>
+      </div>
+      <div>
+        <span>
+          <label for="job">Cargo:</label>
+          <input type="text" name="job" id="job" maxlength="40" required>
+        </span>
+        <span>
+          <label for="job-description">Descrição:</label>
+          <input type="text" name="job-description" id="job-description" maxlength="500" required>
+        </span>
+      </div>
+      <div>
+        <span>
+          <label for="start-date">Data de início:</label>
+          <input type="text" name="start-date" id="start-date" maxlength="10" placeholder="DD/MM/AAAA" required>
+        </span>
+      </div>
+    </fieldset>
+    <div>
+      <button type="submit">Enviar</button>
+    </div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
