@@ -17,33 +17,18 @@ populateStates();
 
 let isValidDate;
 
-function checkDay(date) {
-  const day = parseInt(date[0] + date[1]);
-  if (day > 0 && day <= 31) {
-    return true;
-  }
-  return false;
-}
-
-function checkMonth(date) {
-  const month = parseInt(date[3] + date[4]);
-  if (month > 0 && month <= 12) {
-    return true;
-  }
-  return false;
-}
-
-function checkYear(date) {
-  const year = parseInt(date[6] + date[7] + date[8] + date[9]);
-  if (year > 0) {
-    return true;
-  }
-  return false;
-}
-
 function checkFormat(date) {
-    const format = (date[2] + date[5]);
-  if (format === '//') {
+  if (date.match(/^([0-2][1-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$/)) {
+    return true;
+  }
+  return false;
+}
+
+function checkDate(date) {
+  const day = parseInt(date[0] + date[1]);
+  const month = parseInt(date[3] + date[4]);
+  const year = parseInt(date[6] + date[7] + date[8] + date[9]);
+  if (day > 0 && day <= 31 && month > 0 && month <= 12 && year > 0) {
     return true;
   }
   return false;
@@ -51,7 +36,7 @@ function checkFormat(date) {
 
 function valiDate() {
   const date = dateInput.value;
-  if (checkFormat(date) && checkDay(date) && checkMonth(date) && checkYear(date)) {
+  if (checkFormat(date) && checkDate(date)) {
     dateInput.setCustomValidity('');
   } else {
     dateInput.setCustomValidity('Invalid format');
