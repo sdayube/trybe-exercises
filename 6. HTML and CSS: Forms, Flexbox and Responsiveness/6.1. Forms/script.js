@@ -3,7 +3,8 @@ const stateArray = ["AC", "AL", "AM", "AP", "BA", "CE", "DF", "ES", "GO", "MA", 
 const form = document.querySelector('form');
 const stateSelect = document.getElementById('state');
 const dateInput = document.getElementById('start-date');
-const button = document.querySelector('button');
+const submitForm = document.getElementById('submit-form');
+const resetForm = document.getElementById('reset-form');
 
 function populateStates() {
   for (let i in stateArray) {
@@ -48,15 +49,22 @@ function preventSubmit(event) {
 }
 
 function formValidate() {
-  form.reportValidity();
+  return form.reportValidity();
+}
+
+function printInputs() {
+  const insertionPoints = document.querySelectorAll('.from-input');
+  const source = document.querySelectorAll('.input');
+  for (let i = 0; i < source.length; i += 1) {
+    insertionPoints[i].innerText = source[i].value;
+  }
 }
 
 function printForm() {
-  const formData = new FormData(form);
-  return formData;
+  printInputs();
 }
 
-button.addEventListener('click', function(e) {
+submitForm.addEventListener('click', function(e) {
   preventSubmit(e);
   valiDate();
   if (formValidate()) {
