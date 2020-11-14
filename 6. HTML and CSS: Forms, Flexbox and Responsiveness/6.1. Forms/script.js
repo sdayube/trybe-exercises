@@ -60,8 +60,34 @@ function printInputs() {
   }
 }
 
+function printSelect() {
+  const insertionPoint = document.querySelector('.from-select');
+  const source = document.getElementById('state');
+  insertionPoint.innerText = source.options[source.selectedIndex].text;
+}
+
+function printRadio() {
+  const insertionPoint = document.querySelector('.from-radio');
+  const source = document.querySelectorAll('.radio input');
+  const sourceLabel = document.querySelectorAll('.radio');
+  for (let i = 0; i < source.length; i += 1) {
+    if (source[i].checked) {
+      insertionPoint.innerText = sourceLabel[i].innerText;
+    }
+  }
+}
+
+function printResume() {
+  const insertionPoint = document.querySelector('.from-text-area');
+  const source = document.querySelector('.textarea');
+  insertionPoint.innerText = source.value;
+}
+
 function printForm() {
   printInputs();
+  printSelect();
+  printRadio();
+  printResume();
 }
 
 submitForm.addEventListener('click', function(e) {
