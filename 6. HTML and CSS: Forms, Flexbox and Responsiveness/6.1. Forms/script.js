@@ -35,14 +35,18 @@ function checkDate(date) {
   return false;
 }
 
-function valiDate() {
-  const date = dateInput.value;
-  if (checkFormat(date) && checkDate(date)) {
-    dateInput.setCustomValidity('');
-  } else {
-    dateInput.setCustomValidity('Invalid format');
-  }
-}
+dateInput.DatePickerX.init({
+  format: 'dd/mm/yyyy',
+});
+
+// function valiDate() {
+//   const date = dateInput.value;
+//   if (checkFormat(date) && checkDate(date)) {
+//     dateInput.setCustomValidity('');
+//   } else {
+//     dateInput.setCustomValidity('Invalid format');
+//   }
+// }
 
 function preventSubmit(event) {
   event.preventDefault();
@@ -92,7 +96,7 @@ function printForm() {
 
 submitForm.addEventListener('click', function(e) {
   preventSubmit(e);
-  valiDate();
+  // valiDate();
   if (formValidate()) {
     printForm();
   }
