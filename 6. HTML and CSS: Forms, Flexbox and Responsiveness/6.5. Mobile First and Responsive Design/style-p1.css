@@ -29,25 +29,3 @@
   background: rgb(153 , 153 , 153);
   height: 30vh;
 }
-
-@media screen and ( min-width : 320px ) and ( max-width : 568px ) {
-
-  .centro {
-    width: 100vw;
-  }
-
-  .topo {
-    background: yellow;
-    color: red;
-  }
-
-  .container {
-    flex-direction: column;
-  }
-
-  .colunas {
-    width: 100%;
-    background: red;
-  }
-
-}
