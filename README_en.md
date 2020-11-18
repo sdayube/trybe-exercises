@@ -36,3 +36,11 @@ Here are listed all exercises done until the present moment:
 
  5. [JavaScript: DOM, Events and Web Stages](./5.%20JavaScript:%20DOM,%20Events%20and%20Web%20Stages)
 	1. [DOM and Selectors](./5.%20JavaScript:%20DOM,%20Events%20and%20Web%20Stages/5.1.%20DOM%20and%20Selectors)
+	2. [Working with elements](./5.%20JavaScript:%20DOM,%20Events%20and%20Web%20Stages/5.2.%20Working%20with%20elements)
+	3. [Events](./5.%20JavaScript:%20DOM,%20Events%20and%20Web%20Stages/5.3.%20Events)
+
+ 6. [HTML and CSS: Forms, Flexbox and Responsiveness](./6.%20HTML%20and%20CSS:%20Forms,%20Flexbox%20and%20Responsiveness)
+	1. [Forms](./6.%20HTML%20and%20CSS:%20Forms,%20Flexbox%20and%20Responsiveness/6.1.%20Forms)
+	2. [Libraries and Frameworks](./6.%20HTML%20and%20CSS:%20Forms,%20Flexbox%20and%20Responsiveness/6.2.%20Libraries%20and%20Frameworks)
+	3. [CSS Flexbox - Part 1](./6.%20HTML%20and%20CSS:%20Forms,%20Flexbox%20and%20Responsiveness/6.3.%20CSS%20Flexbox%20-%20Part%201)
+	4. [CSS Flexbox - Part 2](./6.%20HTML%20and%20CSS:%20Forms,%20Flexbox%20and%20Responsiveness/6.4.%20CSS%20Flexbox%20-%20Part%202)
