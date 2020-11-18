@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.centro {
+  background: rgb(51 , 51 , 51);
+  height: 100vh;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.topo {
+  background: red;
+  color: white;
+  height: 20%;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.colunas {
+  width: 50%;
+  margin: 1px;
+  background: rgb(153 , 153 , 153);
+  height: 30vh;
+}
+
+@media screen and ( min-width : 320px ) and ( max-width : 568px ) {
+
+  .centro {
+    width: 100vw;
+  }
+
+  .topo {
+    background: yellow;
+    color: red;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .colunas {
+    width: 100%;
+    background: red;
+  }
+
+}
