@@ -6,15 +6,15 @@
   <title>Document</title>
 </head>
 <body>
-  <button id="add">Acrescentar</button>
+  <button id="button">Acrescentar</button>
   <p id="counter">Você clicou 0 vezes no botão.</p>
 </body>
 <script>
-  const add = document.getElementById('add');
+  const button = document.getElementById('button');
   const counter = document.getElementById('counter');
   let clickCount = 0;
 
-  add.addEventListener('click', () => {
+  button.addEventListener('click', () => {
     clickCount += 1;
     counter.innerText = `Você clicou ${clickCount} vezes no botão.`
   });
