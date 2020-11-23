@@ -1,0 +1,151 @@
+* , *:before , *:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+header nav {
+  background-color: hsl(300 , 25% , 90%);
+  padding: 10px;
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+}
+
+nav li {
+  list-style-type: none;
+  text-align: center;
+  color: hsla(0 , 0% , 0% , 0.66);
+  font-size: 1.15em;
+}
+
+nav li:hover {
+  color: black;
+}
+
+aside {
+  background: hsl(0 , 0% , 90%);
+  padding: 20px;
+  font-size: 1.3em;
+  border: 1px solid hsl(0 , 0% , 85%);
+}
+
+aside ul {
+  margin: 25px 0 10px;
+}
+
+.aside ul li {
+  list-style-type: none;
+}
+
+aside h2 {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: center;
+  background-color: hsl(300 , 33% , 85%);
+}
+
+article {
+  margin: 20px;
+  text-align: justify;
+}
+
+article h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+article p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: hsl(300 , 25% , 85%);
+  padding: 20px;
+}
+
+@media only screen and ( min-width : 750px ) {
+
+  header {
+    display: flex;
+    align-items: center;
+    background-color: hsl(300 , 33% , 85%);
+  }
+
+  header p {
+    width: 70%;
+    font-size: 2.25em;
+  }
+
+  header nav {
+    width: 30%;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    padding: 10px;
+    border-bottom: 2px solid hsla(300 , 33% , 85% );
+  }
+
+  nav ul li:last-child {
+    border-bottom: none;
+  }
+
+  main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  aside {
+    width: 50%;
+  }
+
+  article h3 {
+    font-size: 2em;
+    margin: 25px;
+  }
+
+  article p {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and ( min-width : 1200px ) {
+
+  main {
+    flex-wrap: nowrap;
+  }
+
+  article {
+    width: fit-content;
+  }
+
+  aside {
+    width: 25%;
+    max-width: 400px;
+  }
+
+  .aside-two {
+    order: 1;
+  }
+}

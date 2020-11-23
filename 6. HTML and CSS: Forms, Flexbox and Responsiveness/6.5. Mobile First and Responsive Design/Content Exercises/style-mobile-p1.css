@@ -1,0 +1,17 @@
+.centro {
+  width: 100vw;
+}
+
+.topo {
+  background: yellow;
+  color: red;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.colunas {
+  width: 100%;
+  background: red;
+}

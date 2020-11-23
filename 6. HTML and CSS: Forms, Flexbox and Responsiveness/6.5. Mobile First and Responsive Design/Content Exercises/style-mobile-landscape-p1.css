@@ -1,0 +1,17 @@
+.centro {
+  width: 100vw;
+}
+
+.topo {
+  background: rgb(136 , 136 , 136);
+  color: black;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.colunas {
+  width: 100%;
+  background: rgb(234 , 234 , 234);
+}
