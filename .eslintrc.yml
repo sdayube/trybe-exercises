@@ -11,6 +11,8 @@ parserOptions:
   sourceType: module
 plugins:
   - react
-rules: {
-  "no-console": "off",
-}
+rules:
+  no-console: off
+  max-len:
+    - error 
+    - ignoreComments: true
