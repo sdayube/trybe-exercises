@@ -15,5 +15,9 @@ rules:
   no-console: off
   max-len:
     - error 
-    - ignoreComments: true
+    - code: 100
+      ignoreComments: true
       ignoreTemplateLiterals: true
+  no-return-assign: 
+    - error
+    - except-parens
