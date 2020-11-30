@@ -13,6 +13,7 @@ plugins:
   - react
 rules:
   no-console: off
+  no-param-reassign: off
   max-len:
     - error 
     - code: 100
@@ -21,3 +22,7 @@ rules:
   no-return-assign: 
     - error
     - except-parens
+  arrow-parens:
+    - 2
+    - as-needed
+    - requireForBlockBody: true
