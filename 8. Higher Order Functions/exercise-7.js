@@ -66,8 +66,8 @@ const books = [
 const expectedResult = false;
 
 function authorUnique() {
-  books.sort((a, b) => a.author.releaseYear - b.author.releaseYear);
-  return !books.some((book, i) => book.author.releaseYear === books[i + 1].author.releaseYear);
+  books.sort((a, b) => a.author.birthYear - b.author.birthYear);
+  return !books.some((book, i) => book.author.birthYear === books[i + 1].author.birthYear);
 }
 
 assert.strictEqual(authorUnique(), expectedResult);
