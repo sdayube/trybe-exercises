@@ -19,6 +19,7 @@ rules:
     - code: 100
       ignoreComments: true
       ignoreTemplateLiterals: true
+      ignoreStrings: true
   no-return-assign: 
     - error
     - except-parens
