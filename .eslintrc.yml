@@ -1,6 +1,7 @@
 env:
   browser: true
   es2021: true
+  jest/globals: true
 extends:
   - 'plugin:react/recommended'
   - airbnb
@@ -11,19 +12,21 @@ parserOptions:
   sourceType: module
 plugins:
   - react
+  - jest
 rules:
-  no-console: off
-  no-param-reassign: off
+  arrow-parens:
+    - 2
+    - as-needed
+    - requireForBlockBody: true
+  linebreak-style: off
   max-len:
     - error 
     - code: 100
       ignoreComments: true
       ignoreTemplateLiterals: true
       ignoreStrings: true
+  no-console: off
+  no-param-reassign: off
   no-return-assign: 
     - error
     - except-parens
-  arrow-parens:
-    - 2
-    - as-needed
-    - requireForBlockBody: true

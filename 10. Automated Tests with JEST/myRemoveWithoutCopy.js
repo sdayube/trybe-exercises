@@ -1,5 +1,3 @@
-const myRemove = require("./myRemove");
-
 function myRemoveWithoutCopy(arr, item) {
   for (let i = 0, len = arr.length; i < len; i += 1) {
     if (item === arr[i]) {

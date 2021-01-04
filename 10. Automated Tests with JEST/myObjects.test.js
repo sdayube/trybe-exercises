@@ -1,4 +1,4 @@
-const { obj1, obj2, obj3 } = require('./myObjects.js')
+const { obj1, obj2, obj3 } = require('./myObjects.js');
 
 describe('Tests equality and inequality of objects', () => {
   test('checks if two objects are deep equals', () => {

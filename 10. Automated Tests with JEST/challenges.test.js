@@ -13,10 +13,9 @@ const {
   generatePhoneNumber,
   triangleCheck,
   hydrate,
-} = require('./challenges')
+} = require('./challenges');
 
 describe('Tests refactored answers to the challenges from the Playground Functions project', () => {
-
   test('Tests challenge 1 - using the && operator', () => {
     expect(compareTrue(true, true)).toBe(true);
     expect(compareTrue(false, true)).toBe(false);
@@ -52,13 +51,13 @@ describe('Tests refactored answers to the challenges from the Playground Functio
     expect(highestCount([1, 1, 9, 4, 6, 10, 15, 13, 15, 15])).toBe(3);
     expect(highestCount([10, 9, 9, 4, 6, 9, 10])).toBe(2);
     expect(highestCount([9, 1, 9, 9, 4, 6, 9, 1, 9])).toBe(5);
-  })
+  });
 
   test('Tests challenge 7 - cat and mouse', () => {
     expect(catAndMouse(8, 10, 6)).toBe('os gatos trombam e o rato foge');
     expect(catAndMouse(8, 11, 6)).toBe('cat2');
     expect(catAndMouse(8, 11, 4)).toBe('cat1');
-  })
+  });
 
   test('Tests challenge 8 - fizzBuzz', () => {
     expect(fizzBuzz([8, 10, 6, 15])).toEqual(['bug!', 'buzz', 'fizz', 'fizzBuzz']);
@@ -73,28 +72,28 @@ describe('Tests refactored answers to the challenges from the Playground Functio
   });
 
   test('Tests challenge 10 - tech list', () => {
-    expect(techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript',], 'Lucas')).toEqual([{ tech: "CSS", name: "Lucas" }, { tech: "HTML", name: "Lucas" }, { tech: "JavaScript", name: "Lucas" }, { tech: "Jest", name: "Lucas" }, { tech: "React", name: "Lucas" }]);
-    expect(techList(['Angular', 'Vue', 'Jest', 'HTML', 'CSS', 'JavaScript',], 'Silvio')).toEqual([{ tech: "Angular", name: "Silvio" }, { tech: "CSS", name: "Silvio" }, { tech: "HTML", name: "Silvio" }, { tech: "JavaScript", name: "Silvio" }, { tech: "Jest", name: "Silvio" }, { tech: "Vue", name: "Silvio" }]);
+    expect(techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'Lucas')).toEqual([{ tech: 'CSS', name: 'Lucas' }, { tech: 'HTML', name: 'Lucas' }, { tech: 'JavaScript', name: 'Lucas' }, { tech: 'Jest', name: 'Lucas' }, { tech: 'React', name: 'Lucas' }]);
+    expect(techList(['Angular', 'Vue', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'Silvio')).toEqual([{ tech: 'Angular', name: 'Silvio' }, { tech: 'CSS', name: 'Silvio' }, { tech: 'HTML', name: 'Silvio' }, { tech: 'JavaScript', name: 'Silvio' }, { tech: 'Jest', name: 'Silvio' }, { tech: 'Vue', name: 'Silvio' }]);
   });
 
   test('Tests challenge 11 - generate phone number', () => {
-    expect(generatePhoneNumber([1,1,9,6,4,5,0,7,7,0,4,9]))
+    expect(generatePhoneNumber([1, 1, 9, 6, 4, 5, 0, 7, 7, 0, 4, 9]))
       .toBe('Array com tamanho incorreto');
-    expect(generatePhoneNumber([1,1,9,6,4,5,0,7,7,9]))
+    expect(generatePhoneNumber([1, 1, 9, 6, 4, 5, 0, 7, 7, 9]))
       .toBe('Array com tamanho incorreto');
-    expect(generatePhoneNumber([1,1,9,6,4,5,0,7,7,9,'a']))
+    expect(generatePhoneNumber([1, 1, 9, 6, 4, 5, 0, 7, 7, 9, 'a']))
       .toBe('O array deve conter apenas números');
-    expect(generatePhoneNumber([[1],1,9,6,4,5,0,7,7,9,3]))
+    expect(generatePhoneNumber([[1], 1, 9, 6, 4, 5, 0, 7, 7, 9, 3]))
       .toBe('O array deve conter apenas números');
-    expect(generatePhoneNumber([7,1,9,9,4,0,4,7,1,3,9]))
+    expect(generatePhoneNumber([7, 1, 9, 9, 4, 0, 4, 7, 1, 3, 9]))
       .toBe('não é possível gerar um número de telefone com esses valores');
-    expect(generatePhoneNumber([1,1,9,6,4,5,0,7,7,0,-4]))
+    expect(generatePhoneNumber([1, 1, 9, 6, 4, 5, 0, 7, 7, 0, -4]))
       .toBe('não é possível gerar um número de telefone com esses valores');
-    expect(generatePhoneNumber([1,1,9,6,4,5,10,7,7,0,4]))
+    expect(generatePhoneNumber([1, 1, 9, 6, 4, 5, 10, 7, 7, 0, 4]))
       .toBe('não é possível gerar um número de telefone com esses valores');
-    expect(generatePhoneNumber([1,1,9,6,4,5,0,7,7,0,4]))
+    expect(generatePhoneNumber([1, 1, 9, 6, 4, 5, 0, 7, 7, 0, 4]))
       .toBe('(11) 96450-7704');
-    expect(generatePhoneNumber([1,5,3,4,6,1,0,3,7,0,9]))
+    expect(generatePhoneNumber([1, 5, 3, 4, 6, 1, 0, 3, 7, 0, 9]))
       .toBe('(15) 34610-3709');
   });
 
@@ -104,12 +103,12 @@ describe('Tests refactored answers to the challenges from the Playground Functio
     expect(triangleCheck(15, 5, 9)).toBe(false);
     expect(triangleCheck(21, 11, 8)).toBe(false);
     expect(triangleCheck(12, 54, 77)).toBe(false);
-  })
+  });
 
   test('Tests challenge 13 - hydrate', () => {
     expect(hydrate('4 cachaças, 15 cervejas e 3 copos de vinho')).toBe('22 copos de água');
     expect(hydrate('0 bebidas alcoólicas')).toBe('0 copos de água');
     expect(hydrate('2 caipiroskas, 1 shot de tequila e 5 skol beats')).toBe('8 copos de água');
     expect(hydrate('1 cervejinha')).toBe('1 copo de água');
-  })
+  });
 });
