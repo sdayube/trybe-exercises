@@ -27,5 +27,7 @@
     "eslint-plugin-react-hooks": "^4.0.0",
     "jest": "^26.6.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "eslint-config-trybe-fundamentals": "^1.1.0"
+  }
 }
