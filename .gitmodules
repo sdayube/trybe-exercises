@@ -1,0 +1,3 @@
+[submodule "trybe-exercises-front-end"]
+	path = trybe-exercises-front-end
+	url = git@github.com:sdayube/trybe-exercises-front-end.git
